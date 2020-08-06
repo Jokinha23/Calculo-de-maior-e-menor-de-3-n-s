@@ -1,0 +1,16 @@
+print('Ponha números com valores diferentes!')
+a = float(input('Número A:'))
+b = float(input('Número B:'))
+c = float(input('Número C:'))
+if a>b and a>c:
+    print ('O maior é o número A')
+if b>a and b>c:
+    print ('O maior é o número B')
+if c>a and c>b:
+    print ('O maior é o número C')
+if a<b and a<c:
+    print ('O menor é o número A')
+if b<a and b<c:
+    print ('O menor é o número B')
+if c<a and c<b:
+    print ('O menor é o número C')
